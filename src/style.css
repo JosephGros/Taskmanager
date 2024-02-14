@@ -1,0 +1,548 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Font */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(150, 213, 235);
+  font-family: "Courier New", Courier, monospace;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+#loginTitle {
+  text-align: center;
+  font-weight: bold;
+  margin: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.loginForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  max-width: 500px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+#showBtn {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#login {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 5px;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+#createUser {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 5px;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+#loginUsername {
+  width: 300px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#loginPassword {
+  width: 300px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.createUserForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+#createUsername {
+  width: 300px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#createPassword {
+  width: 300px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#createFirstname {
+  width: 300px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#createLastname {
+  width: 300px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#createEmail {
+  width: 300px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#createBtn {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 5px;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+#loginPage {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#createUserTitle {
+  text-align: center;
+  font-weight: bold;
+  margin: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Font */
+#navbar {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  background-color: rgb(89, 127, 141);
+  border-bottom: 1px ridge rgb(89, 127, 141);
+  top: 0px;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 50px;
+}
+
+#nav {
+  width: 100%;
+  display: flex;
+  justify-content: inherit;
+}
+#nav ul {
+  display: flex;
+  padding: 0px;
+}
+#nav .usernameDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  height: 50px;
+  background-color: rgb(87, 150, 173);
+  border: 2px solid rgb(22, 40, 47);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  list-style: none;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+}
+#nav .usernameDisplay:hover {
+  background-color: rgb(67, 115, 133);
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 5px;
+}
+#nav #userIcon {
+  font-size: 14px;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+}
+#nav .links {
+  width: 100%;
+  max-width: 300px;
+  list-style: none;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+}
+#nav .links:hover {
+  background-color: rgb(55, 102, 119);
+  list-style: none;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+}
+#nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#welcomeTitle {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#welcomeMsg {
+  width: 80%;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.choiceBtns {
+  min-width: 300px;
+  min-height: 100px;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 10px;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.choiceBtns:hover {
+  box-shadow: 5px 5px 5px black;
+}
+
+#createLink {
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Create Task */
+#createTaskMsg {
+  width: 80%;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#taskTitle {
+  width: 90%;
+  height: 40px;
+  margin: 20px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 5px;
+  font-size: 26px;
+  background-color: #f8f8f8;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#taskDescription {
+  width: 100%;
+  height: 250px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 5px;
+  font-size: 20px;
+  resize: none;
+  background-color: #f8f8f8;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+textarea::-moz-placeholder {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+textarea::placeholder {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#createTaskForm {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+}
+
+#createSubmit {
+  width: 300px;
+  height: 70px;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 10px;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#taskListSec {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  max-width: 650px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+#taskList {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+#taskList .mainTR {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.351);
+  border-radius: 10px;
+}
+#taskList .firstTR {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.351);
+  border-style: solid solid none solid;
+  border-radius: 10px 10px 0 0;
+}
+#taskList .secondTR {
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.351);
+  border-style: ridge solid solid solid;
+  border-radius: 0 0 10px 10px;
+}
+#taskList .taskDone {
+  width: 60px;
+  text-align: center;
+}
+#taskList .taskTitleTable {
+  width: 50%;
+  font-size: 24px;
+  font-weight: bolder;
+}
+#taskList .taskTitles {
+  width: 50%;
+  font-size: 16px;
+  font-weight: bold;
+}
+#taskList .markTask {
+  width: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+}
+#taskList .taskDoneCheck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+}
+#taskList .checkbox {
+  width: 24px;
+  height: 24px;
+}
+#taskList .taskBtns1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+}
+#taskList .taskBtns2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+}
+#taskList .newMark {
+  background-color: rgb(206, 219, 223);
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 5px;
+}
+#taskList .newMark .material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+#taskList .newMark:hover {
+  background-color: rgb(101, 192, 139);
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 5px;
+}
+#taskList .deleteBtns {
+  background-color: rgb(206, 219, 223);
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 5px;
+}
+#taskList .deleteBtns .material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+#taskList .deleteBtns:hover {
+  background-color: rgb(192, 101, 101);
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 5px;
+}
+#taskList .editBtns {
+  background-color: rgb(206, 219, 223);
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 5px;
+}
+#taskList .editBtns .material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+#taskList .editBtns:hover {
+  background-color: rgb(151, 192, 205);
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 5px;
+}
+#taskList span {
+  text-decoration: none;
+  color: black;
+}
+#taskList .firstTR:hover {
+  background-color: #dfdcdc;
+  border-radius: 10px 10px 0 0;
+}
+
+.deleteMsg {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 10px;
+  background-color: rgba(249, 249, 249, 0.5450980392);
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.userInfo {
+  width: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+img {
+  width: 300px;
+  border: 3px solid gold;
+  border-radius: 5px;
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,193 @@
+@import "_presets";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(150, 213, 235);
+  font-family: $fontFamily;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+#loginTitle {
+  text-align: center;
+  font-weight: bold;
+  margin: 40px;
+  font-family: $fontFamily;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: $fontFamily;
+}
+
+// Login page
+
+.loginForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    max-width: 500px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+#showBtn {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#login {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 5px;
+  font-size: 16px;
+  font-family: $fontFamily;
+  font-weight: bold;
+}
+
+#createUser {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 5px;
+  font-size: 16px;
+  font-family: $fontFamily;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  font-family: $fontFamily;
+  font-weight: bold;
+}
+
+#loginUsername {
+    width: 300px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: $loginFontSizeMobile;
+    font-family: $fontFamily;
+  }
+  
+  #loginPassword {
+    width: 300px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: $loginFontSizeMobile;
+    font-family: $fontFamily;
+  }
+
+
+
+  // Create user
+
+.createUserForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+#createUsername {
+    width: 300px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: $loginFontSizeMobile;
+    font-family: $fontFamily;
+  }
+  
+  #createPassword {
+    width: 300px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: $loginFontSizeMobile;
+    font-family: $fontFamily;
+  }
+
+  #createFirstname {
+    width: 300px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: $loginFontSizeMobile;
+    font-family: $fontFamily;
+  }
+  
+  #createLastname {
+    width: 300px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: $loginFontSizeMobile;
+    font-family: $fontFamily;
+  }
+
+  #createEmail {
+    width: 300px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: $loginFontSizeMobile;
+    font-family: $fontFamily;
+  }
+
+  #createBtn {
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 5px;
+    font-size: 16px;
+    font-family: $fontFamily;
+    font-weight: bold;
+  }
+  
+  #loginPage {
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+
+  #createUserTitle {
+    text-align: center;
+    font-weight: bold;
+    margin: 40px;
+    font-family: $fontFamily;
+  }
